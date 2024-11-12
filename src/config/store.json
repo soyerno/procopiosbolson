@@ -1,0 +1,197 @@
+{
+  "store": {
+    "name": "Procopios Helados",
+    "slogan": "Los mejores helados artesanales de El Bolsón",
+    "address": "R8430 El Bolsón, Río Negro",
+    "phone": "0294 470-5009",
+    "schedule": {
+      "weekdays": "12:00 - 22:00",
+      "weekends": "12:00 - 23:00"
+    },
+    "social": {
+      "instagram": "procopioshelados",
+      "whatsapp": "54-294-470-5009"
+    },
+    "mercadoPago": {
+      "alias": "procopios.helados"
+    }
+  },
+  "containers": [
+    {
+      "id": 1,
+      "name": "1/4 Kg",
+      "price": 2500,
+      "flavors": 2
+    },
+    {
+      "id": 2,
+      "name": "1/2 Kg",
+      "price": 4500,
+      "flavors": 3
+    },
+    {
+      "id": 3,
+      "name": "1 Kg",
+      "price": 8000,
+      "flavors": 4
+    }
+  ],
+  "flavors": [
+    {
+      "id": 1,
+      "name": "Chocolate Amargo",
+      "description": "Chocolate negro intenso con trozos de cacao",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 2,
+      "name": "Dulce de Leche",
+      "description": "Clásico dulce de leche argentino",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 3,
+      "name": "Frutos del Bosque",
+      "description": "Mix de frutos rojos de la Patagonia",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 4,
+      "name": "Vainilla",
+      "description": "Vainilla de Madagascar",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 5,
+      "name": "Limón",
+      "description": "Sorbete de limón natural",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 6,
+      "name": "Frutilla",
+      "description": "Frutillas frescas de la región",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 7,
+      "name": "Cheesecake de Dulce de Leche",
+      "description": "Cheesecake con dulce de leche",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 8,
+      "name": "Dulce de Leche Bariloche",
+      "description": "Dulce de leche clásico con un toque de la Patagonia",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 9,
+      "name": "Dulce de Leche Bombón",
+      "description": "Dulce de leche con bombones de chocolate",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 10,
+      "name": "Dulce de Leche con Brownie",
+      "description": "Helado de dulce de leche con trozos de brownie",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 11,
+      "name": "Dulce de Leche Granizado",
+      "description": "Dulce de leche con virutas de chocolate",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 12,
+      "name": "Super Dulce de Leche",
+      "description": "Extra dulce de leche con salsa y trozos adicionales",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 13,
+      "name": "Alfajor de Chocolate",
+      "description": "Alfajor de chocolate relleno con dulce de leche",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 14,
+      "name": "Bombón Suizo",
+      "description": "Helado de chocolate relleno de bombones",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 15,
+      "name": "Chocolate con Almendras",
+      "description": "Chocolate con trozos de almendras",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 16,
+      "name": "Marroc",
+      "description": "Helado inspirado en el clásico dulce Marroc",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 17,
+      "name": "Danpari",
+      "description": "Sabor frutal con un toque especial",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 18,
+      "name": "Kiwi & Frutilla",
+      "description": "Combinación refrescante de kiwi y frutilla",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 19,
+      "name": "Banana Split",
+      "description": "Helado con banana, chocolate y crema",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 20,
+      "name": "Cookies con Dulce de Leche",
+      "description": "Galletas con trozos y relleno de dulce de leche",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 21,
+      "name": "Menta Granizada",
+      "description": "Helado de menta con trozos de chocolate",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 22,
+      "name": "Mousse de Maracuyá",
+      "description": "Mousse cremosa de maracuyá",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 23,
+      "name": "Sambayón con Arándanos",
+      "description": "Sambayón clásico con arándanos frescos",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 24,
+      "name": "Yogurt con Frutillas",
+      "description": "Yogurt cremoso con frutillas naturales",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 25,
+      "name": "Frambuesa",
+      "description": "Helado refrescante de frambuesa",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    },
+    {
+      "id": 26,
+      "name": "Pistacchio Bianco",
+      "description": "Helado de pistacho blanco",
+      "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=200"
+    }
+  ]
+}
