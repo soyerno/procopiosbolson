@@ -2,7 +2,7 @@ import React from 'react';
 import { LinkCard } from './components/LinkCard';
 import { OrderFlow } from './components/OrderFlow';
 import { SocialLinks } from './components/SocialLinks';
-import { Github, Instagram, Phone, MapPin, IceCream, Clock } from 'lucide-react';
+import { Github, Instagram, Phone, MapPin, IceCream, Clock, Facebook } from 'lucide-react';
 import storeConfig from './config/store.json';
 import { MapCard } from './components/MapCard';
 
@@ -66,6 +66,11 @@ function App() {
             {
               icon: <Instagram className="w-5 h-5" />,
               url: `https://instagram.com/${store.social.instagram}`,
+              theme: 'light'
+            },
+            {
+              icon: <Facebook className="w-5 h-5" />,
+              url: store.social.facebook,
               theme: 'light'
             },
             {
