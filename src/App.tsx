@@ -43,7 +43,7 @@ function App() {
           <LinkCard
             title="Teléfono"
             description={store.phone}
-            url={`tel:${store.phone}`}
+            url={`https://wa.me/${store.social.whatsapp.replace(/\D/g, '')}`}
             icon={<Phone className="w-5 h-5" />}
             bgColor="bg-purple-500"
           />
@@ -73,11 +73,11 @@ function App() {
               url: store.social.facebook,
               theme: 'light'
             },
-            {
-              icon: <Phone className="w-5 h-5" />,
-              url: `https://wa.me/${store.social.whatsapp.replace(/\D/g, '')}`,
-              theme: 'light'
-            }
+            // {
+            //   icon: <Phone className="w-5 h-5" />,
+            //   url: `https://wa.me/${store.social.whatsapp.replace(/\D/g, '')}`,
+            //   theme: 'light'
+            // }
           ]}
           theme="light"
         />
@@ -85,6 +85,7 @@ function App() {
        
         <footer className="text-center text-sm text-gray-500">
           <p>© 2024 {store.name}. Todos los derechos reservados.</p>
+          <p>Diseño: <a className='text-blue-500 underline' target='_blank' href='https://soyerno.com.ar'>soyerno.com.ar</a></p>
         </footer>
       </div>
     </div>
