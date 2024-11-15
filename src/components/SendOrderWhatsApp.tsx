@@ -1,4 +1,5 @@
 import React from 'react';
+import storeConfig from '../config/store.json';
 
 // Definimos los tipos de las props
 interface OrderDetails {
@@ -22,13 +23,17 @@ const SendOrderWhatsApp: React.FC<SendOrderWhatsAppProps> = ({ orderDetails }) =
 
   return (
     <div>
-      <h2>Enviar Pedido por WhatsApp</h2>
-      <p>
-        Haz clic en el botón para enviar los detalles del pedido a través de WhatsApp.
-      </p>
+      <div className='mb-1'>
+        Paga con transferencia a: <span className=" text-blue-500 font-bold ">{storeConfig.store.mercadoPago.alias}</span>
+      </div>
       <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
-        <button>Enviar Pedido</button>
+        <button
+          className="w-full bg-green-500 text-white py-3 rounded-xl hover:bg-green-600"
+        >
+          <h2>Enviar Pedido</h2>
+        </button>
       </a>
+      
     </div>
   );
 };

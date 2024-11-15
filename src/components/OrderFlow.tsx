@@ -38,27 +38,27 @@ async function createPaymentIntention(){
 }
 
 
-async function showModal() {
-  const modalData = await createPaymentIntention();
-  const modalObject = {
-      qrString: modalData.qrString,
-      checkoutId: modalData.checkoutId,
-      deeplink:  {
-          url: modalData.deeplink,
-          callbackURL: 'https://tiendadeprueba.com/checkout',
-          callbackURLSuccess: 'https://tiendadeprueba/thankyou'
-      },
-      callbackURL: 'https://tiendadeprueba/thankyou',
-      refreshData: createPaymentIntention,
-      onSuccess: function () { console.log('onSuccess') },
-      onFailure: function () { console.log('onFailure') },
-      onCancel: function () { console.log('onCancel') },
-      onClose: function () { console.log('onClose') },
-  }
+// async function showModal() {
+//   const modalData = await createPaymentIntention();
+//   const modalObject = {
+//       qrString: modalData.qrString,
+//       checkoutId: modalData.checkoutId,
+//       deeplink:  {
+//           url: modalData.deeplink,
+//           callbackURL: 'https://tiendadeprueba.com/checkout',
+//           callbackURLSuccess: 'https://tiendadeprueba/thankyou'
+//       },
+//       callbackURL: 'https://tiendadeprueba/thankyou',
+//       refreshData: createPaymentIntention,
+//       onSuccess: function () { console.log('onSuccess') },
+//       onFailure: function () { console.log('onFailure') },
+//       onCancel: function () { console.log('onCancel') },
+//       onClose: function () { console.log('onClose') },
+//   }
 
 
-  globalThis.ModoSDK.modoInitPayment(modalObject);
-}
+//   globalThis.ModoSDK.modoInitPayment(modalObject);
+// }
 
 export function OrderFlow() {
   const [isOpen, setIsOpen] = useState(false);
@@ -229,6 +229,7 @@ export function OrderFlow() {
                       <span>Total:</span>
                       <span>${total()}</span>
                     </div>
+                    
                   </div>
                 </div>
               )}
@@ -238,12 +239,7 @@ export function OrderFlow() {
                 
                 {items.length > 0 && (
                   <>
-                    <button
-                      // onClick={handleMercadoPago}
-                      className="w-full bg-blue-500 text-white py-3 rounded-xl hover:bg-blue-600"
-                    >
-                      Alias: {storeConfig.store.mercadoPago.alias}
-                    </button>
+                    
                     <SendOrderWhatsApp orderDetails={orderDetails} />
                     {/* <button onClick={()=>showModal()}>Pagá con MODO</button> */}
                     {/* <OpenMercadoPagoPayment paymentDetails={paymentDetails} /> */}
