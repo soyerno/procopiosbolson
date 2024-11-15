@@ -242,11 +242,11 @@ export function OrderFlow() {
                       // onClick={handleMercadoPago}
                       className="w-full bg-blue-500 text-white py-3 rounded-xl hover:bg-blue-600"
                     >
-                      Pagar con transferencia: {storeConfig.store.mercadoPago.alias}
+                      Alias: {storeConfig.store.mercadoPago.alias}
                     </button>
                     <SendOrderWhatsApp orderDetails={orderDetails} />
-                    <button onClick={()=>showModal()}>Pagá con MODO</button>
-                    <OpenMercadoPagoPayment paymentDetails={paymentDetails} />
+                    {/* <button onClick={()=>showModal()}>Pagá con MODO</button> */}
+                    {/* <OpenMercadoPagoPayment paymentDetails={paymentDetails} /> */}
                     <button
                       onClick={clearCart}
                       className="w-full bg-gray-200 text-gray-700 py-3 rounded-xl hover:bg-gray-300"

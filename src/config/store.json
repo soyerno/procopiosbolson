@@ -2,37 +2,38 @@
   "store": {
     "name": "Procopios Helados",
     "slogan": "Los mejores helados artesanales de El Bolsón",
-    "address": "R8430 El Bolsón, Río Negro",
-    "phone": "0294 470-5009",
+    "address": "Av Sarmiento 2796, Ezq. Roca - El Bolsón, Río Negro",
+    "phone": "54-294-433-8563",
     "schedule": {
-      "weekdays": "12:00 - 22:00",
-      "weekends": "12:00 - 23:00"
+      "weekdays": "12:00 - 12:00",
+      "weekends": "12:00 - 12:00"
     },
     "social": {
-      "instagram": "procopioshelados",
-      "whatsapp": "54-294-470-5009"
+      "instagram": "procopios2",
+      "facebook": "https://www.facebook.com/profile.php?id=61567149137210",
+      "whatsapp": "54-294-433-8563"
     },
     "mercadoPago": {
-      "alias": "procopios.helados"
+      "alias": "procopios2"
     }
   },
   "containers": [
     {
       "id": 1,
       "name": "1/4 Kg",
-      "price": 2500,
-      "flavors": 2
+      "price": 3200,
+      "flavors": 3
     },
     {
       "id": 2,
       "name": "1/2 Kg",
-      "price": 4500,
-      "flavors": 3
+      "price": 5200,
+      "flavors": 4
     },
     {
       "id": 3,
       "name": "1 Kg",
-      "price": 8000,
+      "price": 9500,
       "flavors": 4
     }
   ],
